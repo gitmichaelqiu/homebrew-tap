@@ -1,8 +1,8 @@
 cask "desktoprenamer" do
-  version "1.10.0"
-  sha256 "PASTE_YOUR_SHA256_HERE"
+  version "1.10.1"
+  sha256 "REPLACE_WITH_THE_HASH_FROM_STEP_1"
 
-  url "https://github.com/gitmichaelqiu/DesktopRenamer/releases/download/v#{version}/DesktopRenamer.zip"
+  url "https://github.com/gitmichaelqiu/DesktopRenamer/releases/download/v#{version}/DesktopRenamer.#{version}.dmg"
   name "DesktopRenamer"
   desc "Rename macOS Desktops/Spaces from the menubar"
   homepage "https://github.com/gitmichaelqiu/DesktopRenamer"
@@ -12,5 +12,7 @@ cask "desktoprenamer" do
   zap trash: [
     "~/Library/Application Support/DesktopRenamer",
     "~/Library/Preferences/com.michaelqiu.DesktopRenamer.plist",
+    "~/Library/HTTPStorages/com.michaelqiu.DesktopRenamer",
+    "~/Library/Caches/com.michaelqiu.DesktopRenamer",
   ]
 end
