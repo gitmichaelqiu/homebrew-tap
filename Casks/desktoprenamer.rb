@@ -1,6 +1,6 @@
 cask "desktoprenamer" do
-  version "1.13.2"
-  sha256 "0fe73dfa49b4d2f77752d9ff6e8406a574bce5641c3b86d5ed33a27b4bae2341"
+  version "1.14.0-beta.1"
+  sha256 "1683b9aaac1335815929a8a0243e0c1f5ccb22e4c4557aa9612771f72b72cfa5"
 
   url "https://github.com/gitmichaelqiu/DesktopRenamer/releases/download/v#{version}/DesktopRenamer.#{version}.dmg"
   name "DesktopRenamer"
